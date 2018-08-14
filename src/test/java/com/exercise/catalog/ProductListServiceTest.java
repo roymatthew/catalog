@@ -43,7 +43,7 @@ public class ProductListServiceTest
         
         for(Product product : productList)
         {
-            System.out.println(product.toDisplayString());
+            System.out.println(product.toInvoiceRowString());
         }
     }    
 
